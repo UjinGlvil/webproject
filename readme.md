@@ -1,13 +1,11 @@
 **Web Programming class** 
 ===================
 
-안녕하세요 ! 저희 팀은 **UG**[^ujinglvil] 팀입니다. 
+안녕하세요 ! 저희 팀은 **UG** 팀입니다. 
 팀의 구성으로는 이동현, 임종식 2명으로 이루어져 있으며
 동서대학교, 컴퓨터공학부 소프트웨어공학 전공 3학년입니다.
 
 ----------
-
-
 Introduce
 -------------
 
@@ -72,5 +70,3 @@ If you just have modified your document and you want to force the synchronizatio
 Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking <i class="icon-refresh"></i> **Manage synchronization** in the <i class="icon-refresh"></i> **Synchronize** sub-menu. This will let you remove synchronization locations that are associated to your document.
 
 > **Note:** If you delete the file from **Google Drive** or from **Dropbox**, the document will no longer be synchronized with that location.
-
-  [^ujinglvil]: [Ujinglvil](https://stackedit.io/) 은 동서대학교의 우진기숙사와 글로벌빌리지기숙사를 따온 이름이다.
