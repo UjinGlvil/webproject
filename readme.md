@@ -1,5 +1,8 @@
-웹 프로그래밍 - U&G 팀
+웹 프로그래밍 팀 프로젝트
 ===================
+
+SPA 모델기반의 스타트업을 위한 홍보 어플리케이션의 구현
+-----------
 
 안녕하세요 ! 저희 팀은 **U&G** 팀입니다.<br>
 팀의 구성으로는 팀장 이동현, 임종식 2명으로 이루어져 있으며<br>
@@ -18,6 +21,6 @@ Abstract
 
 [![](http://image.fnnews.com/resource/media/image/2015/09/29/201509291711450027.jpg)](http://www.fnnews.com/series/3976)
 
-#### <i class="icon-file"></i> 기업 소개 페이지 제공 
-
-크라우드 펀딩(Crowd Funding)
+----------
+Related Research
+-----------
