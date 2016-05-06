@@ -16,23 +16,8 @@ Abstract
 > - 정부의 규제가 심하다
 > - 대기업이 관련 시장에 이미 진출하거나 진출 예정 중이다.
 
-관련기사
+[![](http://image.fnnews.com/resource/media/image/2015/09/29/201509291711450027.jpg)](http://www.fnnews.com/series/3976)
 
 #### <i class="icon-file"></i> 기업 소개 페이지 제공 
 
-The document panel is accessible using the <i class="icon-folder-open"></i> button in the navigation bar. You can create a new document by clicking <i class="icon-file"></i> **New document** in the document panel.
-
-#### <i class="icon-folder-open"></i> 페이지 관리 기능 제공
-
-All your local documents are listed in the document panel. You can switch from one to another by clicking a document in the list or you can toggle documents using <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
-
-#### <i class="icon-pencil"></i> 레이아웃 수정 및 관리 기능 제공
-
-You can rename the current document by clicking the document title in the navigation bar.
-
-#### <i class="icon-hdd"></i>가상 저장 공간 제공
-
-You can save the current document to a file by clicking <i class="icon-hdd"></i> **Export to disk** from the <i class="icon-provider-stackedit"></i> menu panel.
-
-> **Tip:** Check out the [<i class="icon-upload"></i> Publish a document](#publish-a-document) section for a description of the different output formats.
-
+크라우드 펀딩(Crowd Funding)
