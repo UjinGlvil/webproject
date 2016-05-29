@@ -1,6 +1,12 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+a{
+    border:none;
+}
+a:active{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
 
 body {
     padding-bottom: 40px;
@@ -145,17 +151,6 @@ body {
     margin-bottom: 1em;
 }
 
-/*
- * -- PURE BUTTON STYLES --
- * I want my pure-button elements to look a little different
- */
-.pure-button {
-    background-color: #1f8dd6;
-    color: white;
-    padding: 0.5em 2em;
-    border-radius: 5px;
-}
-
 .home-menu {
     padding: 0.5em;
     text-align: center;
@@ -283,8 +278,6 @@ body {
         font-size: 250%;
     }
 
-
-    /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
         border: none;
     }

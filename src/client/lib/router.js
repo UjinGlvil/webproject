@@ -11,3 +11,4 @@ Router.route('/',{name:'home'});
 Router.route('/about',{name:'about'});
 Router.route('/contract',{name:'contract'});
 Router.route('/login',{name:'login'});
+Router.route('/join',{name:'join'});
