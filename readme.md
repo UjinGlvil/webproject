@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Web Programming class
 ===================
 
@@ -94,8 +93,3 @@ Abstract
 > - 대기업이 관련 시장에 이미 진출하거나 진출 예정 중이다.
 
 [![](http://image.fnnews.com/resource/media/image/2015/09/29/201509291711450027.jpg)](http://www.fnnews.com/series/3976)
-
-----------
-Related Research
------------
->>>>>>> d063bb4f82aadb13695ec4b76e403a9d1fb98944
