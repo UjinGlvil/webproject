@@ -1,4 +1,4 @@
-Web Programming class
+Web Programming
 ===================
 
 안녕하세요 ! 저희 팀은 **UG** 팀입니다. 
