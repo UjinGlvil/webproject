@@ -12,8 +12,9 @@ import './funding.html';
 Template.funding.helpers({
 
     setFundingInfo(){
-        
-        return fundings.find({});
+
+        // return fundings.find({}, {limit : 3}).sort({title : -1});
+        return fundings.find({}, {limit : 3, sort : {title : 1}});
     },
 
 });
