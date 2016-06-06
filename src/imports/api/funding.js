@@ -4,3 +4,7 @@
 import { Mongo } from 'meteor/mongo';
 
 export const fundings = new Mongo.Collection('funding');
+
+
+
+

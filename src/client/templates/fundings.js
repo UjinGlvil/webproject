@@ -5,9 +5,6 @@ import { Template } from 'meteor/templating';
 
 import { fundings } from '../../imports/api/funding.js';
 
-import './funding.html';
-
-
 
 Template.funding.helpers({
 
