@@ -29,10 +29,11 @@
 
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="{{pathFor 'funding'}}">펀딩관리</a></li>
-                            <li><a href="{{pathFor 'login'}}">로그인</a></li>
-                            <li><a href="{{pathFor 'join'}}">회원가입</a></li>
-                    </ul>
+                            {{#if currentUser}}
+                                <li><a href="{{pathFor 'funding'}}">펀딩관리</a></li>
+                            {{/if}}
+                            {{> loginButtons align="right"}}
+                        </ul>
                     </div>
                 </div>
             </nav>
