@@ -24,3 +24,5 @@ iron:router
 sacha:spin
 mrt:purecss
 fortawesome:fontawesome
+ian:accounts-ui-bootstrap-3
+accounts-password
