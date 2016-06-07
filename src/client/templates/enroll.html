@@ -5,61 +5,73 @@
                 <h2 class="col-md-5">프로젝트/아이디어 등록하기</h2>
                 <!-- Button trigger modal -->
 
-                <button type="button" class="col-md-2 col-md-offset-5 btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                <button type="button" class="col-md-2 col-md-offset-5 btn-primary btn-lg" data-toggle="modal"
+                        data-target="#myModal">
                     서약서 보기
                 </button>
             </div>
 
-                <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                        aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                            </div>
-                            <div class="modal-body">
-                                이 사이트는 별도의 준수사항이 없습니다. 미티어 프로젝트를 위해 만들어진 임시페이지 이니까 마음껏 등록해주세요.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            이 사이트는 별도의 준수사항이 없습니다. 미티어 프로젝트를 위해 만들어진 임시페이지 이니까 마음껏 등록해주세요.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                     </div>
-                </div>
-
-                <div class="row">
-                    <p class="col-md-2">프로젝트명: </p>
-                    <input type="text" aria-label="..." class="from-control com-md-5" id="align-center">
-                </div>
-
-                <div class="row">
-                    <p class="col-md-2">목표투자금:</p>
-                    <div class="input-group col-md-3" id="align-center">
-                        <input type="text" class="form-control" aria-label="...">
-                        <div class="input-group-btn">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                화폐단위 <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a href="#">원(\)</a></li>
-                                <li><a href="#">달러($)</a></li>
-                                <li><a href="#">유로(€)</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-right">
-                    <button type="button" class="btn btn-primary btn-lg">등록하기</button>
-                    <a class="btn btn-primary btn-lg " href="{{pathFor 'funding'}}" role="button">취소</a>
                 </div>
             </div>
+
+            <div class="row">
+                <p class="col-md-2">프로젝트명: </p>
+                <input type="text" aria-label="..." class="from-control com-md-5" id="align-center">
+            </div>
+
+            <div class="row">
+                <p class="col-md-2">목표투자금:</p>
+                <div class="input-group col-md-3" id="align-center">
+                    <input type="text" class="form-control" aria-label="...">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            화폐단위 <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">원(\)</a></li>
+                            <li><a href="#">달러($)</a></li>
+                            <li><a href="#">유로(€)</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="col-md-2">내 용: </p>
+                <textarea type="text" class="from-control com-md-8" id="align-center">이게 뭐양</textarea>
+            </div>
+
+
+
+
+
+
+            <div class="text-right">
+                <button type="button" class="btn btn-primary btn-lg">등록하기</button>
+                <a class="btn btn-primary btn-lg " href="{{pathFor 'funding'}}" role="button">취소</a>
+            </div>
+        </div>
 
     </div>
 </template>
