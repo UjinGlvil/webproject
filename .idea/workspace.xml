@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d30e0bc5-6d82-4ad4-8124-7cc308892276" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/imports/api/funding.js" afterPath="$PROJECT_DIR$/src/imports/api/Database.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/enroll.html" afterPath="$PROJECT_DIR$/src/client/templates/enroll.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/enroll.js" afterPath="$PROJECT_DIR$/src/client/templates/enroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/funding.html" afterPath="$PROJECT_DIR$/src/client/templates/funding.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/fundings.js" afterPath="$PROJECT_DIR$/src/client/templates/fundings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/main.js" afterPath="$PROJECT_DIR$/src/server/main.js" />
     </list>
     <ignored path="webproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +28,8 @@
           <file leaf-file-name="funding.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/templates/funding.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="402">
-                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                <state relative-caret-position="263">
+                  <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -46,7 +40,15 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="422">
                   <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-                  <folding />
+                  <folding>
+                    <marker date="1465490111455" expanded="true" signature="1742:2026" ph="..." />
+                    <marker date="1465490111455" expanded="true" signature="1868:1999" ph="..." />
+                    <marker date="1465490111455" expanded="true" signature="2071:2393" ph="..." />
+                    <marker date="1465490111455" expanded="true" signature="2215:2366" ph="..." />
+                    <marker date="1465490111455" expanded="true" signature="2438:2817" ph="..." />
+                    <marker date="1465490111455" expanded="true" signature="2580:2790" ph="..." />
+                    <marker date="1465490111455" expanded="true" signature="2863:3090" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -55,11 +57,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="enroll.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="enroll.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/enroll.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+                <state relative-caret-position="285">
+                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                   <folding>
                     <element signature="e#46#90#0" expanded="true" />
                   </folding>
@@ -67,7 +69,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fundings.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="fundings.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/templates/fundings.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="57">
@@ -379,7 +381,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectFolder/MeteorProject/Meteor121" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectFolder/MeteorProject/0601meteor121" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
@@ -529,7 +531,7 @@
       <workItem from="1464948875995" duration="10024000" />
       <workItem from="1465204435126" duration="10097000" />
       <workItem from="1465277765316" duration="1242000" />
-      <workItem from="1465454806458" duration="13964000" />
+      <workItem from="1465454806458" duration="16935000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1464528902232</created>
@@ -671,11 +673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465456943323</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="enroll page update&#10;DB field 구조 재설정&#10;펀딩 등록기능 구현&#10;펀딩 기본 양식제출 확인&#10;&#10;">
+      <created>1465535701548</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1465535701548</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48153000" />
+    <option name="totallyTimeSpent" value="51124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -685,9 +694,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892741" sideWeight="0.5263435" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3954496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33261105" sideWeight="0.48314014" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261105" sideWeight="0.48314014" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.283857" sideWeight="0.47365648" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.283857" sideWeight="0.47365648" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -742,7 +751,8 @@
     <MESSAGE value="enroll 템플릿 구현단계&#10;페이지 설정 중&#10;DB 설계중" />
     <MESSAGE value="enroll template content box set" />
     <MESSAGE value="enroll page update&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="enroll page update&#10;" />
+    <MESSAGE value="enroll page update&#10;DB field 구조 재설정&#10;펀딩 등록기능 구현&#10;펀딩 기본 양식제출 확인&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="enroll page update&#10;DB field 구조 재설정&#10;펀딩 등록기능 구현&#10;펀딩 기본 양식제출 확인&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1068,7 +1078,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1465490111455" expanded="true" signature="1742:2026" ph="..." />
+            <marker date="1465490111455" expanded="true" signature="1868:1999" ph="..." />
+            <marker date="1465490111455" expanded="true" signature="2071:2393" ph="..." />
+            <marker date="1465490111455" expanded="true" signature="2215:2366" ph="..." />
+            <marker date="1465490111455" expanded="true" signature="2438:2817" ph="..." />
+            <marker date="1465490111455" expanded="true" signature="2580:2790" ph="..." />
+            <marker date="1465490111455" expanded="true" signature="2863:3090" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/enroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,20 +1111,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/enroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <element signature="e#46#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/templates/funding.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="263">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding />
         </state>
       </provider>
