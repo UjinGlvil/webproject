@@ -18,13 +18,9 @@ Template.funding.helpers({
         });
         // db 값 하나하나씩 뽑아낼때 쓰는거
 
-        
+
 
         return fundings.find({}, {limit: 3, sort: {title: 1}});
-    },
-    getRate(){
-        var invest = fundings.invest;
-        console.log(invest);
     }
 
 });
