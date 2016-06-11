@@ -2,9 +2,11 @@
  * Created by JS_UbSE on 2016-06-06.
  */
 
-import { Template } from 'meteor/templating'
+import { Template } from 'meteor/templating';
 
-import {fundings} from '../../imports/api/Database';
+import {fundings} from '../../imports/api/fundings';
+
+import './enroll.html';
 
 Template.enroll.events({
     "submit .enroll-project":function (event) {
@@ -27,6 +29,7 @@ Template.enroll.events({
         }
         fundings.insert({owner: Meteor.userId(),username: Meteor.user().username ,title,content,targetInvest,currentInvest:"0", rate:"0",createdAt: new Date()});
 
+        console.log("뒤로가라");
         history.back();
         
     }

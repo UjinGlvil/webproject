@@ -4,7 +4,6 @@ aldeed:autoform@5.5.1
 aldeed:simple-schema@1.1.0
 allow-deny@1.0.4
 anti:i18n@0.4.3
-autopublish@1.0.7
 autoupdate@1.2.9
 babel-compiler@6.6.4
 babel-runtime@0.1.8
@@ -51,8 +50,8 @@ iron:core@1.0.11
 iron:dynamic-template@1.0.12
 iron:layout@1.0.12
 iron:location@1.0.11
-iron:middleware-stack@1.0.11
-iron:router@1.0.12
+iron:middleware-stack@1.1.0
+iron:router@1.0.13
 iron:url@1.0.11
 jquery@1.11.8
 launch-screen@1.0.11
