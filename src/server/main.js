@@ -1,1 +1,1 @@
-import '../imports/api/funding.js';
+import '../imports/api/fundings.js';

@@ -1,10 +1,13 @@
 /**
  * Created by Source on 2016-05-29.
  */
+//import { FlowRouter } from 'meteor/kadira:flow-router';
+//import { BlazeLayout } from 'meteor/kadira:blaze-layout';
+//import { AccountsTemplates } from 'meteor/useraccounts:core';
 
 
 Router.configure({
-   layoutTemplate: 'layout',
+    layoutTemplate: 'layout',
     loadingTemplate:'loading',
     notFoundTemplate:'notFound'
 });
