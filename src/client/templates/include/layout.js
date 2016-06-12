@@ -5,8 +5,6 @@ Session.setDefault('searchVal');
 
 import {Template} from 'meteor/templating';
 
-import {fundings} from '../../../imports/api/fundings';
-
 import './layout.html';
 
 Template.layout.onCreated(function bodyOnCreated(){
