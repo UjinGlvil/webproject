@@ -18,7 +18,7 @@ Template.invest.events({
 
         event.preventDefault();
 
-        console.log("payment 이벤트 실행");
+        
          var target = event.target;
          var paymentMoney = Number(target.paymentMoney.value);
          Meteor.call("submitPayment",target,paymentMoney,this);

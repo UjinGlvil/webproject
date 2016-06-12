@@ -12,24 +12,24 @@ import './include/layout.js'
 
 
 Template.search.onCreated(function bodyOnCreated(){
-    Meteor.subscribe('funding');
+    Meteor.subscribe('fundingAll');
 });
 
 
 
-Template.layout.events({
-    "submit .search-project":function(event){
-        event.preventDefault();
-        const target = event.target;
-        const searchValue = target.searchVal.value;
-
-        Session.set('searchVal', searchValue);
-        console.log(searchValue);
-        Router.go('search');
- 
-
-    }
-});
+// Template.layout.events({
+//     "submit .search-project":function(event){
+//         event.preventDefault();
+//         const target = event.target;
+//         const searchValue = target.searchVal.value;
+//
+//         Session.set('searchVal', searchValue);
+//
+//         Router.go('search');
+//
+//
+//     }
+// });
 
 Template.search.helpers({
     searchFundingInfo(){

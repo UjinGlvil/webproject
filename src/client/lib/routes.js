@@ -19,13 +19,11 @@ Router.route('/login',{name:'login'});
 Router.route('/join',{name:'join'});
 Router.route('/funding', {name: 'funding'});
 Router.route('/enroll',{name:'enroll'});
-Router.route('/search',{name:'search'},
-    Meteor.subscribe('funding')
-);
+Router.route('/search',{name:'search'});
 Router.route('/invest/:_id',{
     name: 'invest',
     data:function () {
-        Meteor.subscribe('funding',this.params._id);
+        Meteor.subscribe('fundingByFundingID',this.params._id);
         return fundings.findOne({_id: this.params._id});
     }
 });

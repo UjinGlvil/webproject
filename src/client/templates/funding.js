@@ -16,11 +16,15 @@ import './funding.html';
 //     Meteor.subscribe('funding');
 // });
 
+Template.contract.onCreated(function bodyOnCreated() {
+    Meteor.subscribe('fundingByUserID', Meteor.userId());
+});
+
 Template.funding.helpers({
     getMyInvestInfo(){
-        Meteor.subscribe('fundingByUserID', Meteor.userId());
-        console.log(fundings.find({}).fetch());
-        return fundings.find({});
+        console.log(Meteor.userId());
+        //console.log(fundings.find({}).fetch());
+        return fundings.find({owner:Meteor.userId()});
     }
 });
 // Template.funding.events({
