@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d30e0bc5-6d82-4ad4-8124-7cc308892276" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.meteor/packages" afterPath="$PROJECT_DIR$/src/.meteor/packages" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/lib/routes.js" afterPath="$PROJECT_DIR$/src/client/lib/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/contract.html" afterPath="$PROJECT_DIR$/src/client/templates/contract.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/contract.js" afterPath="$PROJECT_DIR$/src/client/templates/contract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/funding.js" afterPath="$PROJECT_DIR$/src/client/templates/funding.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/invest.html" afterPath="$PROJECT_DIR$/src/client/templates/invest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/search.html" afterPath="$PROJECT_DIR$/src/client/templates/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/invest.js" afterPath="$PROJECT_DIR$/src/client/templates/invest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/main.js" afterPath="$PROJECT_DIR$/src/server/main.js" />
     </list>
     <ignored path="webproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +32,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.43689904">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="contract.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="contract.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/templates/contract.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="78" column="63" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
+                <state relative-caret-position="570">
+                  <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -60,7 +61,8 @@
                   <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <marker date="1465732625002" expanded="true" signature="153:207" ph="..." />
+                    <marker date="1465732625002" expanded="true" signature="565:580" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -69,11 +71,9 @@
           <file leaf-file-name="funding.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/funding.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
+                <state relative-caret-position="342">
                   <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-                  <folding>
-                    <element signature="e#48#91#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -81,8 +81,8 @@
           <file leaf-file-name="funding.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/funding.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="36" selection-end-column="21" />
+                <state relative-caret-position="513">
+                  <caret line="36" column="21" selection-start-line="17" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                   </folding>
@@ -90,11 +90,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="invest.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="invest.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/invest.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+                <state relative-caret-position="415">
+                  <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +103,8 @@
           <file leaf-file-name="contract.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/contract.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="6" />
+                <state relative-caret-position="361">
+                  <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
                   <folding>
                     <element signature="e#45#88#0" expanded="true" />
                   </folding>
@@ -115,9 +115,11 @@
           <file leaf-file-name="invest.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/invest.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="57">
+                  <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#0#44#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -156,21 +158,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/lib/routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-                  <folding />
+                <state relative-caret-position="427">
+                  <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="packages" pinned="false" current-in-tab="true">
+          <file leaf-file-name="packages" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/.meteor/packages">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+                <state relative-caret-position="494">
+                  <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -184,6 +188,9 @@
                   <folding>
                     <element signature="e#1#45#0" expanded="false" />
                     <element signature="e#47#90#0" expanded="true" />
+                    <marker date="1465728728913" expanded="true" signature="316:606" ph="{...}" />
+                    <marker date="1465728728913" expanded="true" signature="362:604" ph="{...}" />
+                    <marker date="1465728728913" expanded="true" signature="634:840" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -235,8 +242,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/server/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+                <state relative-caret-position="38">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -287,7 +294,6 @@
         <option value="$PROJECT_DIR$/src/client/style/style.css" />
         <option value="$PROJECT_DIR$/src/client/templates/home.html" />
         <option value="$PROJECT_DIR$/src/client/templates/enroll.html" />
-        <option value="$PROJECT_DIR$/src/server/main.js" />
         <option value="$PROJECT_DIR$/src/imports/api/fundings.js" />
         <option value="$PROJECT_DIR$/src/client/templates/contact.html" />
         <option value="$PROJECT_DIR$/src/client/templates/contact.js" />
@@ -298,12 +304,14 @@
         <option value="$PROJECT_DIR$/src/client/templates/include/layout.html" />
         <option value="$PROJECT_DIR$/src/client/templates/search.js" />
         <option value="$PROJECT_DIR$/src/client/templates/search.html" />
+        <option value="$PROJECT_DIR$/src/client/templates/funding.js" />
+        <option value="$PROJECT_DIR$/src/client/templates/invest.html" />
+        <option value="$PROJECT_DIR$/src/.meteor/packages" />
         <option value="$PROJECT_DIR$/src/client/templates/contract.html" />
         <option value="$PROJECT_DIR$/src/client/templates/contract.js" />
-        <option value="$PROJECT_DIR$/src/client/templates/funding.js" />
-        <option value="$PROJECT_DIR$/src/client/lib/routes.js" />
+        <option value="$PROJECT_DIR$/src/server/main.js" />
         <option value="$PROJECT_DIR$/src/client/templates/invest.js" />
-        <option value="$PROJECT_DIR$/src/client/templates/invest.html" />
+        <option value="$PROJECT_DIR$/src/client/lib/routes.js" />
       </list>
     </option>
   </component>
@@ -504,10 +512,6 @@
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -563,6 +567,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".meteor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="document" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -575,7 +597,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectFolder/MeteorProject/routerTesting" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="enabled" />
     <property name="js.meteor.project" value="true" />
@@ -707,7 +729,7 @@
       <updated>1464451265843</updated>
       <workItem from="1464532612688" duration="548000" />
       <workItem from="1465194360326" duration="120000" />
-      <workItem from="1465632592367" duration="25162000" />
+      <workItem from="1465632592367" duration="29055000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1464528902232</created>
@@ -828,11 +850,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465730340153</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="invest 페이지 구현 중">
+      <created>1465734617239</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1465734617239</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25830000" />
+    <option name="totallyTimeSpent" value="29723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -899,7 +928,8 @@
     <MESSAGE value="DB 구성 변경&#10;Merge가 잘 되었는지 의문..&#10;등록후 페이지 복귀 구현" />
     <MESSAGE value="메소드 안된.." />
     <MESSAGE value="프로젝트 검색 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로젝트 검색 구현" />
+    <MESSAGE value="invest 페이지 구현 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="invest 페이지 구현 중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -908,7 +938,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/templates/fundings.js" />
     <entry file="file://$PROJECT_DIR$/src/client/templates/include/loading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1099,30 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Method.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/style/funding.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/helpers/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1152,7 +1157,7 @@
         <state relative-caret-position="209">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <element signature="e#79#122#0" expanded="true" />
+            <element signature="e#79#122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1174,6 +1179,9 @@
           <folding>
             <element signature="e#1#45#0" expanded="false" />
             <element signature="e#47#90#0" expanded="true" />
+            <marker date="1465728728913" expanded="true" signature="316:606" ph="{...}" />
+            <marker date="1465728728913" expanded="true" signature="362:604" ph="{...}" />
+            <marker date="1465728728913" expanded="true" signature="634:840" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1184,7 +1192,8 @@
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <marker date="1465732625002" expanded="true" signature="153:207" ph="..." />
+            <marker date="1465732625002" expanded="true" signature="565:580" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1197,58 +1206,6 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#46#91#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="78" column="63" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#45#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/funding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="e#48#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/invest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,18 +1227,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/templates/funding.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="513">
+          <caret line="36" column="21" selection-start-line="17" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/.meteor/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/templates/invest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+        <state relative-caret-position="415">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/style/funding.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/funding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Method.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/invest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#45#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
           <folding />
         </state>
       </provider>

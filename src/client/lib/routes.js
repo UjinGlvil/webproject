@@ -5,6 +5,7 @@
 //import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 //import { AccountsTemplates } from 'meteor/useraccounts:core';
 
+import {fundings} from '../../imports/api/fundings';
 
 Router.configure({
     layoutTemplate: 'layout',
@@ -27,4 +28,11 @@ Router.route('/enroll',{name:'enroll'});
 Router.route('/search',{name:'search'},
     Meteor.subscribe('funding')
 );
-Router.route('/invest', {name:'invest'});
+Router.route('/invest/:_id',{
+    name: 'invest',
+    data:function () {
+        Meteor.subscribe('funding',this.params._id);
+        console.log("동적라우팅Val: "+this.params);
+        return fundings.findOne({_id: this.params._id});
+    }
+});

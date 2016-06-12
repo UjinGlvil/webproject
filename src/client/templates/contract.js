@@ -17,3 +17,8 @@ Template.contract.helpers({
         return fundings.find({}, {sort: {createdAt: 1}});
     }
 });
+Template.contract.events({
+    'click .invertBtn':function(event){
+        Session.set('targetInvest',event.target);
+    }
+});
