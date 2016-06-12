@@ -33,5 +33,6 @@ Meteor.methods({
         // $('#payment').removeAttr("data-dismiss");
         // $('.inputPay').val('');
 
-    }
+    },
+    
 });

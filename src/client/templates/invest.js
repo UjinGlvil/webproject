@@ -5,7 +5,7 @@
 import {fundings} from '../../imports/api/fundings';
 import './invest.html';
 
-//Session.setDefault('targetInvest');
+
 
 
 Template.invest.events({
@@ -43,7 +43,7 @@ Template.invest.events({
         // console.log("cVal: "+cValue + "  tVal: "+tValue);
         // console.log("rate: "+rate+"%");
         //
-        
+
         $('#payment').attr("data-dismiss", "modal");
         $('#payment').trigger('click');
         $('#payment').removeAttr("data-dismiss");
@@ -52,13 +52,9 @@ Template.invest.events({
     },
     'keydown .form-control.inputPay' : function(event){
         var keyCode = event.keyCode;
-    
         if( ( keyCode>=48 && keyCode<=57) || ( keyCode>=96 && keyCode<=105 ) || keyCode===8 || keyCode===46 || keyCode===37 || keyCode===39 )
             return;
         else
             return false;
     }
-});
-Template.invest.helpers({
-
 });
