@@ -12,12 +12,25 @@
                             <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                         </div>
                         <div class="modal-body">
-                            잘 생각하고 투자하세요. 기업이 먹튀할 수도 있습니다. 저희 페이지는 책임이 없어요.
+                            결제페이지 입니다. 다음 준수사항을 잘 읽어보시고 투자에 임해주십시오.<br>
+
+                            1. 한번 결제한 투자는 환급이 불가능합니다. <br>
+                            2. 테스트 단계이므로 멋이 없습니다. <br>
+                            3. 돈이 빠지는게 아니라 괜찮습니다. <br>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+                        <form class="payment form-horizontal">
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-sm-3 control-label">목표투자금</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" id="focusedInput" onkeydown="return showKeyCode(event)" type="number" placeholder="원 단위"
+                                           name="paymentMoney">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">취소</button>
+                                <button type="submit" id="payment" class="btn btn-primary" >결제하기</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -28,11 +41,11 @@
                     <h2 class="col-md-4">프로젝트/아이디어 등록하기</h2>
                     <button type="button" class="col-md-2 col-md-offset-6 btn-primary btn-lg" data-toggle="modal"
                             data-target="#myModal">
-                        결제 동의사항
+                        결제하기
                     </button>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" style="padding-top: 30px;">
                     <label class="col-sm-2 control-label">프로젝트 명: </label>
                     <div class="col-sm-10">
                         <label class="control-label">{{title}}</label>
@@ -44,7 +57,24 @@
                         <label class="control-label">{{content}}</label>
                     </div>
                 </div>
-
+                <div class="form-group">
+                    <label for="inputPassword" class="col-sm-2 control-label">목표투자금: </label>
+                    <div class="col-sm-10">
+                        <label class="control-label">{{targetInvest}} 원</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-sm-2 control-label">현재투자금: </label>
+                    <div class="col-sm-10">
+                        <label class="control-label">{{currentInvest}} 원</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-sm-2 control-label">투자완료율: </label>
+                    <div class="col-sm-10">
+                        <label class="control-label">{{rate}}%</label>
+                    </div>
+                </div>
             </div>
         </div>
 

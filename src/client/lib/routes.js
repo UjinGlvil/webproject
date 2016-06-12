@@ -32,7 +32,6 @@ Router.route('/invest/:_id',{
     name: 'invest',
     data:function () {
         Meteor.subscribe('funding',this.params._id);
-        console.log("동적라우팅Val: "+this.params);
         return fundings.findOne({_id: this.params._id});
     }
 });

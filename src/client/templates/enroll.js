@@ -28,7 +28,7 @@ Template.enroll.events({
             title,
             content,
             targetInvest,
-            currentInvest:"0",
+            currentInvest:0,
             rate:"0",
             createdAt: new Date()
         });
