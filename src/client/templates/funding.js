@@ -11,10 +11,10 @@ import {fundings} from '../../imports/api/fundings';
 
 import './funding.html';
 
-Template.funding.onCreated(function bodyOnCreated(){
-    //this.state = new ReactiveDict();
-    Meteor.subscribe('funding');
-});
+// Template.funding.onCreated(function bodyOnCreated(){
+//     //this.state = new ReactiveDict();
+//     Meteor.subscribe('funding');
+// });
 
 Template.funding.helpers({
     getMyInvestInfo(){

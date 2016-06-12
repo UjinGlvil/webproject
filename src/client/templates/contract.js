@@ -7,9 +7,9 @@ import {fundings} from '../../imports/api/fundings';
 
 import './contract.html';
 
-Template.contract.onCreated(function bodyOnCreated(){
-    Meteor.subscribe('funding');
-});
+// Template.contract.onCreated(function bodyOnCreated(){
+//     Meteor.subscribe('funding');
+// });
 
 Template.contract.helpers({
     getFundingInfo(){
