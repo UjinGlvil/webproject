@@ -23,3 +23,4 @@ Router.route('/funding',{
         console.log("나의 펀딩 정보를 받아오는 중입니다.");
 }});
 Router.route('/enroll',{name:'enroll'});
+Router.route('/search',{name:'search'});

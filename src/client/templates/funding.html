@@ -2,38 +2,39 @@
 
     <div class="container marketing " style="padding-top: 75px;">
 
-            <div class="jumbotron">
-                <h1>MY FUNDING PAGE</h1>
-                <p><a href="#myFundingList">나의 펀딩목록보기</a></p>
-                <p>총 펀딩금액: 5000원</p>
-                <p class="text-right"><a class="btn btn-primary btn-lg " href="{{pathFor 'enroll'}}" role="button">프로젝트 등록하기</a></p>
-                <!--<button type="button" class="btn btn-primary btn-lg reset">초기화</button>-->
-            </div>
-
+        <div class="jumbotron">
+            <h1>MY FUNDING PAGE</h1>
+            <p><a href="#myFundingList">나의 펀딩목록보기</a></p>
+            <p>총 펀딩금액: 5000원</p>
+            <p class="text-right"><a class="btn btn-primary btn-lg " href="{{pathFor 'enroll'}}" role="button">프로젝트
+                등록하기</a></p>
+            <!--<button type="button" class="btn btn-primary btn-lg reset">초기화</button>-->
+        </div>
 
 
         <div class="row">
             <h1> MY FUNDING LIST</h1>
 
-            {{#each setFundingInfo}}
+            {{#each getMyInvestInfo}}
                 <div class="col-lg-4" id="myFundingList">
 
-                    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                    <img class="img-circle"
+                         src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                         alt="Generic placeholder image" width="140" height="140">
                     <h2>{{title}}</h2>
                     <p>{{content}}</p>
                     <!-- Progress bar : 목표 funding금 도달치를 보여준다.  -->
                     <div class="progress">
-                        <div class="progress-bar progress-bar-success progress-bar -striped" role="progressbar" aria-valuenow={{rate}} aria-valuemin="0" aria-valuemax="100" style="width: {{rate}}%">
+                        <div class="progress-bar progress-bar-success progress-bar -striped" role="progressbar"
+                             aria-valuenow={{rate}} aria-valuemin="0" aria-valuemax="100" style="width: {{rate}}%">
                             <span class="sr-only">{{rate}}% Complete (success)</span>
-                                    {{rate}}%
+                            {{rate}}%
                         </div>
                     </div>
                     <p><a class="btn btn-default" href="#" role="button">동영상보기 &raquo;</a></p>
                     <p><a class="btn btn-default" href="#" role="button">펀딩하기</a></p>
                 </div><!-- /.col-lg-4 -->
             {{/each}}
-
-
 
 
         </div>

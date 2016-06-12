@@ -14,9 +14,8 @@ Template.enroll.events({
         const title = target.title.value;
         const targetInvest = target.invest.value;
         const content = target.content.value;
-        console.log(title);
-        console.log(targetInvest);
-        console.log(content);
+
+        console.log(target);
 
         if(title==='' || targetInvest==='' || content ===' '){
             event.preventDefault();
