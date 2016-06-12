@@ -18,9 +18,10 @@ import './funding.html';
 
 Template.funding.helpers({
     getMyInvestInfo(){
-        return fundings.find({}, {limit: 3, sort: {title: 1}});
+        Meteor.subscribe('fundingByUserID', Meteor.userId());
+        console.log(fundings.find({}).fetch());
+        return fundings.find({});
     }
-
 });
 // Template.funding.events({
 //     "click .reset": function (event) {

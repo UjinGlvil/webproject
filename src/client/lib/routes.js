@@ -1,9 +1,6 @@
 /**
  * Created by Source on 2016-05-29.
  */
-//import { FlowRouter } from 'meteor/kadira:flow-router';
-//import { BlazeLayout } from 'meteor/kadira:blaze-layout';
-//import { AccountsTemplates } from 'meteor/useraccounts:core';
 
 import {fundings} from '../../imports/api/fundings';
 
@@ -20,10 +17,7 @@ Router.route('/contract',{name:'contract'},
 );
 Router.route('/login',{name:'login'});
 Router.route('/join',{name:'join'});
-Router.route('/funding',{
-    name:'funding'},
-    Meteor.subscribe('funding')
-);
+Router.route('/funding', {name: 'funding'});
 Router.route('/enroll',{name:'enroll'});
 Router.route('/search',{name:'search'},
     Meteor.subscribe('funding')

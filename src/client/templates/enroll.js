@@ -16,6 +16,7 @@ Template.enroll.events({
         const content = target.content.value;
 
         console.log(target);
+        console.log("username: "+Meteor.userId());
 
         if(title==='' || targetInvest==='' || content ===' '){
             event.preventDefault();
@@ -24,7 +25,6 @@ Template.enroll.events({
         }
         fundings.insert({
             owner: Meteor.userId(),
-            username: Meteor.user().username,
             title,
             content,
             targetInvest,

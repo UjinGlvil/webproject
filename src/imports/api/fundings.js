@@ -7,10 +7,10 @@ export const fundings = new Mongo.Collection('funding');
 
 
 
-
-if(Meteor.isServer){
-    Meteor.publish('funding', function () {
-        return fundings.find({});
-    });
-    
-}
+//
+// if(Meteor.isServer){
+//     Meteor.publish('funding', function () {
+//         return fundings.find({});
+//     });
+//
+// }

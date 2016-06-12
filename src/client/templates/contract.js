@@ -13,7 +13,7 @@ import './contract.html';
 
 Template.contract.helpers({
     getFundingInfo(){
-        console.log("enroll helpers 호출");
+        Meteor.subscribe('funding');
         return fundings.find({}, {sort: {createdAt: 1}});
     }
 });
