@@ -17,9 +17,24 @@ Template.search.onCreated(function bodyOnCreated(){
 
 
 
+Template.layout.events({
+    "submit .search-project":function(event){
+        event.preventDefault();
+        const target = event.target;
+        const searchValue = target.searchVal.value;
+
+        Session.set('searchVal', searchValue);
+        console.log(searchValue);
+        Router.go('search');
+ 
+
+    }
+});
+
 Template.search.helpers({
     searchFundingInfo(){
         var searchVal = Session.get('searchVal');
-        return fundings.find({"title":/.*searchVal.*/}, {sort: {createdAt: 1}});
+        console.log(fundings.find({title:{$regex:searchVal}}));
+        return fundings.find({title:{$regex:searchVal}});
     }
 });

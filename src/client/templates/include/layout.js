@@ -14,12 +14,15 @@ Template.layout.onCreated(function bodyOnCreated(){
 });
 
 
-Template.layout.events({
-    "submit .search-project":function(event){
-        const target = event.target;
-        event.preventDefault();
-        const searchValue = target.searchVal.value;
-        Session.set('searchVal', searchValue);
-        console.log(searchValue);
-    }
-});
+// Template.layout.events({
+//     "submit .search-project":function(event){
+//         event.preventDefault();
+//
+//         const target = event.target;
+//         const searchValue = target.searchVal.value;
+//         Session.set('searchVal', searchValue);
+//         console.log(searchValue);
+//         location.href='search';
+//
+//     }
+// });
