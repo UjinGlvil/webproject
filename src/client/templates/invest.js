@@ -22,13 +22,10 @@ Template.invest.events({
         var target = event.target;
         var paymentMoney = Number(target.paymentMoney.value);
 
-
         fundings.update(
             {"_id":this._id},
             {$inc: {"currentInvest":paymentMoney}}
         );
-
-
 
         var cValue = this.currentInvest+paymentMoney;
         var tValue = this.targetInvest;
@@ -36,14 +33,11 @@ Template.invest.events({
 
         rate = Math.round(cValue / tValue * 100);
 
-
         console.log("rate: "+rate)
         fundings.update(
             {"_id":this._id},
             {$set:{"rate":rate}}
         );
-
-
 
         console.log("cVal: "+cValue + "  tVal: "+tValue);
         console.log("rate: "+rate+"%");
@@ -51,20 +45,18 @@ Template.invest.events({
         $('#payment').attr("data-dismiss", "modal");
         $('#payment').trigger('click');
         $('#payment').removeAttr("data-dismiss");
+        $('.inputPay').val('');
+
+    },
+    'keydown .form-control.inputPay' : function(event){
+        var keyCode = event.keyCode;
+    
+        if( ( keyCode>=48 && keyCode<=57) || ( keyCode>=96 && keyCode<=105 ) || keyCode===8 || keyCode===46 || keyCode===37 || keyCode===39 )
+            return;
+        else
+            return false;
     }
 });
+Template.invest.helpers({
 
-function showKeyCode(event) {
-    event = event || window.event;
-    var keyID = (event.which) ? event.which : event.keyCode;
-
-    1
-    if( ( keyID >=48 && keyID <= 57 ) || ( keyID >=96 && keyID <= 105 ) || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
-    {
-        return;
-    }
-    else
-    {
-        return false;
-    }
-}
+});

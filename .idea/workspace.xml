@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30e0bc5-6d82-4ad4-8124-7cc308892276" name="Default" comment="">
+    <list default="true" id="d30e0bc5-6d82-4ad4-8124-7cc308892276" name="Default" comment="invest 사이트 완성&#10;Funding 기능 구현">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.meteor/versions" afterPath="$PROJECT_DIR$/src/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/lib/routes.js" afterPath="$PROJECT_DIR$/src/client/lib/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/enroll.js" afterPath="$PROJECT_DIR$/src/client/templates/enroll.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/invest.html" afterPath="$PROJECT_DIR$/src/client/templates/invest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/invest.js" afterPath="$PROJECT_DIR$/src/client/templates/invest.js" />
     </list>
@@ -33,8 +31,8 @@
           <file leaf-file-name="contract.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/templates/contract.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+                <state relative-caret-position="437">
+                  <caret line="71" column="75" selection-start-line="71" selection-start-column="75" selection-end-line="71" selection-end-column="75" />
                   <folding />
                 </state>
               </provider>
@@ -86,25 +84,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="invest.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="invest.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/templates/invest.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="572">
-                  <caret line="74" column="59" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="59" />
+                <state relative-caret-position="448">
+                  <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="invest.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/client/templates/invest.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="456">
-                  <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-                  <folding>
-                    <element signature="e#46#98#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -156,11 +142,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/client/lib/routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
-                  <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+                <state relative-caret-position="422">
+                  <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -234,6 +220,18 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="invest.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/client/templates/invest.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="199">
+                  <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="47" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#46#98#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -294,8 +292,8 @@
         <option value="$PROJECT_DIR$/src/client/templates/contract.js" />
         <option value="$PROJECT_DIR$/src/server/main.js" />
         <option value="$PROJECT_DIR$/src/client/templates/enroll.js" />
-        <option value="$PROJECT_DIR$/src/client/templates/invest.html" />
         <option value="$PROJECT_DIR$/src/client/lib/routes.js" />
+        <option value="$PROJECT_DIR$/src/client/templates/invest.html" />
         <option value="$PROJECT_DIR$/src/client/templates/invest.js" />
       </list>
     </option>
@@ -714,7 +712,7 @@
       <updated>1464451265843</updated>
       <workItem from="1464532612688" duration="548000" />
       <workItem from="1465194360326" duration="120000" />
-      <workItem from="1465632592367" duration="39429000" />
+      <workItem from="1465632592367" duration="40707000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1464528902232</created>
@@ -849,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465739097273</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="invest 사이트 완성&#10;Funding 기능 구현">
+      <created>1465758835541</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1465758835541</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40097000" />
+    <option name="totallyTimeSpent" value="41375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,8 +877,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22318527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23618636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22318527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23618636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1971831" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -912,7 +917,8 @@
     <MESSAGE value="프로젝트 검색 구현" />
     <MESSAGE value="invest 페이지 구현 중" />
     <MESSAGE value="invest 페이지 동적라우팅 성공!!!!!!!!!!!!!!!!!!!!!!!!!!!!&#10;값도 성공적으로 받아집니다. &#10;추후 invest 페이지 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="invest 페이지 동적라우팅 성공!!!!!!!!!!!!!!!!!!!!!!!!!!!!&#10;값도 성공적으로 받아집니다. &#10;추후 invest 페이지 내용 추가" />
+    <MESSAGE value="invest 사이트 완성&#10;Funding 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="invest 사이트 완성&#10;Funding 기능 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1191,24 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#45#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/templates/include/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1277,32 +1265,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/templates/invest.html">
+    <entry file="file://$PROJECT_DIR$/src/client/lib/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="74" column="59" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="59" />
+        <state relative-caret-position="422">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="71" column="75" selection-start-line="71" selection-start-column="75" selection-end-line="71" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/templates/contract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#45#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/templates/invest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="199">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="47" selection-end-column="31" />
           <folding>
             <element signature="e#46#98#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/lib/routes.js">
+    <entry file="file://$PROJECT_DIR$/src/client/templates/invest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state relative-caret-position="448">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
