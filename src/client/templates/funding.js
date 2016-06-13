@@ -7,7 +7,7 @@
 import {Template} from 'meteor/templating';
 
 import {fundings} from '../../imports/api/fundings';
-
+import {fundingsByOwner}  from '../../imports/api/fundings';
 
 import './funding.html';
 
@@ -16,15 +16,16 @@ import './funding.html';
 //     Meteor.subscribe('funding');
 // });
 
-Template.contract.onCreated(function bodyOnCreated() {
-    Meteor.subscribe('fundingByUserID', Meteor.userId());
+Template.funding.onCreated(function bodyOnCreated() {
+    // console.log("userID: "+Meteor.userId());
+    // Meteor.subscribe('fundingByUserID', Meteor.userId());
 });
 
 Template.funding.helpers({
     getMyInvestInfo(){
-        console.log(Meteor.userId());
         //console.log(fundings.find({}).fetch());
-        return fundings.find({owner:Meteor.userId()});
+       // return fundings.find({});
+        return fundings.find({});
     }
 });
 // Template.funding.events({

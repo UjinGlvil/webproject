@@ -1,7 +1,6 @@
 import {fundings} from '../imports/api/fundings';
 
 
-
 Meteor.publish('fundingAll',function () {
     return fundings.find({});
 });

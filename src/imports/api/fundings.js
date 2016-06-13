@@ -6,7 +6,6 @@ import { Mongo } from 'meteor/mongo';
 export const fundings = new Mongo.Collection('funding');
 
 
-
 //
 // if(Meteor.isServer){
 //     Meteor.publish('funding', function () {

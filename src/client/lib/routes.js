@@ -17,7 +17,11 @@ Router.route('/contract',{name:'contract'},
 );
 Router.route('/login',{name:'login'});
 Router.route('/join',{name:'join'});
-Router.route('/funding', {name: 'funding'});
+Router.route('/funding', {name: 'funding',
+    data:function () {
+        Meteor.subscribe('fundingByUserID',Meteor.userId());
+    }
+});
 Router.route('/enroll',{name:'enroll'});
 Router.route('/search',{name:'search'});
 Router.route('/invest/:_id',{

@@ -7,9 +7,7 @@ import {Template} from 'meteor/templating';
 
 import './layout.html';
 
-Template.layout.onCreated(function bodyOnCreated(){
-    Meteor.subscribe('fundingAll');
-});
+
 
 Template.layout.events({
     "submit .search-project":function(event){
@@ -20,7 +18,6 @@ Template.layout.events({
         Session.set('searchVal', searchValue);
 
         Router.go('search');
-
 
     }
 });
