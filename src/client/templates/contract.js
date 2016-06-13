@@ -29,15 +29,24 @@ Template.contract.events({
 
         console.log(video_id);
 
-        player = new YT.Player("player", {
-            height: "500",
-            width: "100%",
-            videoId: video_id,
-            events: {
-                onReady: function (event) {
-                    event.target.playVideo();
+        if(player == null)
+        {
+            player = new YT.Player("player", {
+                height: "500",
+                width: "100%",
+                videoId: video_id,
+                events: {
+                    onReady: function (event) {
+                        event.target.playVideo();
+                    }
                 }
-            }
-        });
+            });
+        }
+        else{
+            player.loadVideoById({videoId:video_id});
+        }
+    },
+    "click .btnclose":function(event) {
+        player.stopVideo();
     }
 });

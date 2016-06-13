@@ -11,10 +11,7 @@ import {fundings} from '../../imports/api/fundings';
 
 import './funding.html';
 
-// Template.funding.onCreated(function bodyOnCreated(){
-//     //this.state = new ReactiveDict();
-//     Meteor.subscribe('funding');
-// });
+var player = null;
 
 Template.contract.onCreated(function bodyOnCreated() {
     Meteor.subscribe('fundingByUserID', Meteor.userId());
@@ -22,15 +19,38 @@ Template.contract.onCreated(function bodyOnCreated() {
 
 Template.funding.helpers({
     getMyInvestInfo(){
-        console.log(Meteor.userId());
-        //console.log(fundings.find({}).fetch());
         return fundings.find({owner:Meteor.userId()});
     }
 });
-// Template.funding.events({
-//     "click .reset": function (event) {
-//         console.log("초기화");
-//         fundings.remove({});
-//     }
-//
-// });
+
+Template.funding.events({
+    "click .showvideo":function (event) {
+        const evt = event.target;
+        const datas = fundings.find({owner:Meteor.userId()}).fetch();
+        var index = evt.getAttribute('data-value');
+
+        var video_id = datas[index].yburl;
+
+        console.log(index);
+
+        if(player == null)
+        {
+            player = new YT.Player("player", {
+                height: "500",
+                width: "100%",
+                videoId: video_id,
+                events: {
+                    onReady: function (event) {
+                        event.target.playVideo();
+                    }
+                }
+            });
+        }
+        else{
+            player.loadVideoById({videoId:video_id});
+        }
+    },
+    "click .btnclose":function(event) {
+        player.stopVideo();
+    }
+ });
