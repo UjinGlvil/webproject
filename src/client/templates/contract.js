@@ -7,14 +7,37 @@ import {fundings} from '../../imports/api/fundings';
 
 import './contract.html';
 
-// Template.contract.onCreated(function bodyOnCreated(){
-//     Meteor.subscribe('funding');
-// });
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus();
+});
 
 Template.contract.helpers({
     getFundingInfo(){
         Meteor.subscribe('fundingByFundingID','');
         console.log(fundings.find({}).fetch());
         return fundings.find({}, {sort: {createdAt: 1}});
+    }
+});
+
+Template.contract.events({
+    "click .showvideo":function (event) {
+        const evt = event.target;
+        const datas = fundings.find({}).fetch();
+        var index = evt.getAttribute('data-value');
+
+        var video_id = datas[index].yburl;
+
+        console.log(video_id);
+
+        player = new YT.Player("player", {
+            height: "500",
+            width: "100%",
+            videoId: video_id,
+            events: {
+                onReady: function (event) {
+                    event.target.playVideo();
+                }
+            }
+        });
     }
 });

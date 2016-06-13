@@ -1,4 +1,22 @@
 <template name="contract">
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Project Video </h4>
+                </div>
+                <div class="modal-body">
+                    <div id="player"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -75,7 +93,7 @@
                             {{rate}}%
                         </div>
                     </div>
-                    <p><a class="btn btn-default" href="#" role="button">동영상보기 &raquo;</a></p>
+                    <p><a data-toggle="modal" data-target="#myModal" id="myModal" class="btn btn-default showvideo" role="button" data-value={{@index}}>동영상보기 &raquo;</a></p>
                     <p><a class="btn btn-default investBtn" href={{pathFor 'invest'}} role="button">펀딩하기</a></p>
                 </div><!-- /.col-lg-4 -->
             {{/each}}
