@@ -28,11 +28,5 @@ Meteor.methods({
         console.log("cVal: "+cValue + "  tVal: "+tValue);
         console.log("rate: "+rate+"%");
 
-        // $('#payment').attr("data-dismiss", "modal");
-        // $('#payment').trigger('click');
-        // $('#payment').removeAttr("data-dismiss");
-        // $('.inputPay').val('');
-
     },
-    
 });

@@ -28,3 +28,5 @@ yogiben:autoform-file
 iron:router@1.0.0-pre4
 session
 constellation:console # 웹  DB 확인
+hpx7:youtube-iframe-player
+adrianliaw:youtube-iframe-api

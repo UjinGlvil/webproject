@@ -14,11 +14,12 @@ Template.enroll.events({
         const title = target.title.value;
         const targetInvest = target.invest.value;
         const content = target.content.value;
+        const yburl = target.url.value;
 
         console.log(target);
         console.log("username: "+Meteor.userId());
 
-        if(title==='' || targetInvest==='' || content ===' '){
+        if(title==='' || targetInvest==='' || content ===' ' || yburl === ''){
             event.preventDefault();
             alert("모든 내용을 다 채우세요.");
             return;
@@ -28,14 +29,11 @@ Template.enroll.events({
             title,
             content,
             targetInvest,
+            yburl,
             currentInvest:0,
             rate:"0",
             createdAt: new Date()
         });
-
-        console.log("뒤로가라");
         history.back();
-        
     }
-        
 });
