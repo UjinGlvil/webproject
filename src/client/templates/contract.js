@@ -7,6 +7,8 @@ import {fundings} from '../../imports/api/fundings';
 
 import './contract.html';
 
+var player = null;
+
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus();
 });
