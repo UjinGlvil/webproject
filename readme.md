@@ -37,5 +37,3 @@ Abstract
 > **해결 방안:**
 
 > - 위 3가지 문제를 해결하기 위해 한국에 맞는 펀딩 페이지를 제작한다.
-
-[![](http://image.fnnews.com/resource/media/image/2015/09/29/201509291711450027.jpg)](http://www.fnnews.com/series/3976)
