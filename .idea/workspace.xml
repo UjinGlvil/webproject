@@ -4,8 +4,24 @@
     <bookmark url="file://$PROJECT_DIR$/src/client/templates/include/loading.html" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d30e0bc5-6d82-4ad4-8124-7cc308892276" name="Default" comment="">
+    <list default="true" id="d30e0bc5-6d82-4ad4-8124-7cc308892276" name="Default" comment="슬라이드 구현 완료">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.meteor/packages" afterPath="$PROJECT_DIR$/src/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.meteor/versions" afterPath="$PROJECT_DIR$/src/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/lib/routes.js" afterPath="$PROJECT_DIR$/src/client/lib/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/style/funding.css" afterPath="$PROJECT_DIR$/src/client/style/funding.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/contract.html" afterPath="$PROJECT_DIR$/src/client/templates/contract.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/contract.js" afterPath="$PROJECT_DIR$/src/client/templates/contract.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/enroll.js" afterPath="$PROJECT_DIR$/src/client/templates/enroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/funding.html" afterPath="$PROJECT_DIR$/src/client/templates/funding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/funding.js" afterPath="$PROJECT_DIR$/src/client/templates/funding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/home.html" afterPath="$PROJECT_DIR$/src/client/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/include/layout.html" afterPath="$PROJECT_DIR$/src/client/templates/include/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/invest.js" afterPath="$PROJECT_DIR$/src/client/templates/invest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/search.html" afterPath="$PROJECT_DIR$/src/client/templates/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/templates/search.js" afterPath="$PROJECT_DIR$/src/client/templates/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package.json" afterPath="$PROJECT_DIR$/src/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/main.js" afterPath="$PROJECT_DIR$/src/server/main.js" />
     </list>
     <ignored path="webproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +90,8 @@
           <file leaf-file-name="funding.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/client/templates/funding.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+                <state relative-caret-position="288">
+                  <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -597,6 +613,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="boot&#9;FILE&#9;file://C:/Users/std_21/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css&#10;progress&#9;null&#9;null&#10;targetInvest&#9;null&#9;null&#10;userId()&#9;null&#9;null&#10;userId&#9;null&#9;null&#10;form-control-static&#9;null&#9;null" />
   </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$/src" />
+    </excluded-roots>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Source\WebstormProjects\webproject2\src\client\templates" />
@@ -707,7 +728,7 @@
       <workItem from="1465844025431" duration="2243000" />
       <workItem from="1465902631363" duration="793000" />
       <workItem from="1466103214448" duration="851000" />
-      <workItem from="1466104081526" duration="20071000" />
+      <workItem from="1466104081526" duration="20134000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1464528902232</created>
@@ -905,11 +926,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466114424201</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="슬라이드 구현 완료">
+      <created>1466130592993</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1466130592993</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74511000" />
+    <option name="totallyTimeSpent" value="74574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +1006,8 @@
     <MESSAGE value="contact.js session 삭제" />
     <MESSAGE value="layout Template 최적화" />
     <MESSAGE value="슬라이드 구현중" />
-    <option name="LAST_COMMIT_MESSAGE" value="슬라이드 구현중" />
+    <MESSAGE value="슬라이드 구현 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="슬라이드 구현 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1352,8 +1381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/templates/funding.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="288">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
       </provider>
