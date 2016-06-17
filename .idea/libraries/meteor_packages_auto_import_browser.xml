@@ -147,8 +147,11 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/dburles_mongo-collection-instances/0.3.5/web.browser/mongo-instances.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.8/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.8/web.browser/reload.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/richsilv_owl-carousel/0.1.0/web.browser/packages/richsilv_owl-carousel.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/gwendall_session-json/0.1.7/web.browser/packages/gwendall_session-json.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/richsilv_owl-carousel/0.1.0/web.browser/packages/richsilv_owl-carousel/lib/owl.carousel.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/deprecated.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/richsilv_owl-carousel/0.1.0/web.browser/packages/richsilv_owl-carousel/lib/owl.theme.default.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random_tests.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/lai_collection-extensions/0.2.1_1/web.browser/collection-extensions.js" />
@@ -452,8 +455,11 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/dburles_mongo-collection-instances/0.3.5/web.browser/mongo-instances.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.8/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/reload/1.1.8/web.browser/reload.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/richsilv_owl-carousel/0.1.0/web.browser/packages/richsilv_owl-carousel.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/gwendall_session-json/0.1.7/web.browser/packages/gwendall_session-json.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/richsilv_owl-carousel/0.1.0/web.browser/packages/richsilv_owl-carousel/lib/owl.carousel.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/deprecated.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/richsilv_owl-carousel/0.1.0/web.browser/packages/richsilv_owl-carousel/lib/owl.theme.default.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random_tests.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/random/1.0.9/web.browser/random.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/lai_collection-extensions/0.2.1_1/web.browser/collection-extensions.js" />
